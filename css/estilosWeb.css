@@ -1,0 +1,143 @@
+header {
+    background: #246497;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+}
+
+header .ed-item img {
+    max-height: 60px; /* Ajusta esta altura según el tamaño deseado */
+    height: auto;
+    width: auto;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto; /* Centra el formulario de búsqueda */
+    margin-right: 60px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 90px); /* Ajusta el ancho para que el campo y el botón se alineen */
+    box-sizing: border-box;
+}
+
+.search-form button {
+    padding: auto;
+    border: none;
+    border-radius: 4px;
+    background-color: #347587; /* Color verde para el botón */
+    color: white;
+    cursor: pointer;
+    width: 80px; /* Ajusta el ancho del botón */
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-top: 11px;
+}
+
+.search-form button:hover {
+    background-color: #45a049; /* Color de fondo al pasar el cursor */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinea los elementos de navegación al final */
+    margin-left: auto; /* Empuja el menú hacia la derecha si hay espacio disponible */
+}
+
+.ed-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ed-menu li {
+    position: relative; /* Para la posición de los submenús */
+}
+
+.ed-menu a {
+    padding: 10px 15px; /* Ajusta el espaciado según sea necesario */
+    text-decoration: none;
+    color: #000; /* Color de texto predeterminado, cambia si es necesario */
+}
+
+.ed-menu a:hover {
+    background: #347587; /* Cambia el color de fondo al verde para el tema de IoT */
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+#banner img {
+    margin-top: 24px;
+    width: 100%;
+    height: auto;
+}
+
+main h1 {
+    color: #242323; /* Color verde para los encabezados */
+}
+
+aside {
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+aside a {
+    display: block;
+    margin-bottom: 10px;
+    color: #242323; /* Color verde para los enlaces */
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #222;
+    text-align: center;
+    font-size: .9em;
+    color: #eee;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-top: 4em;
+}
+
+.contacto {
+    width: 80%;
+    margin: 2em auto;
+}
+
+.contacto .ed-item {
+    margin-bottom: 1em;
+}
+
+.contacto input,
+.contacto textarea {
+    width: 100%;
+}
+
+.enviar {
+    background: steelblue;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2.5;
+    padding: 0 1em;
+    border: none;
+    border-radius: 20px;
+}
+
+.web-vertical {
+    float: left;
+    text-align: center;
+    background: #FAFAFA;
+}
