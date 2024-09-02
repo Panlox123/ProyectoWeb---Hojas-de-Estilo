@@ -10,27 +10,27 @@
 <body>
     <header class="ed-container">
         <div class="ed-item web-20">
-            <a href="/"><img src="imagenes/logo_iot.jpeg" alt="Logo IoT"/></a>
+            <a><img src="imagenes/logo_iot.jpeg" alt="Logo IoT"/></a>
         </div>
         <div class="ed-item web-20">
             <form class="search-form">
-                <input type="text" name="search" placeholder="Buscar...">
+                <input type="text" name="search" placeholder="Buscar palabra...">
                 <button type="submit">Buscar</button>
             </form>
         </div>
-        <div class="ed-item web-60">
+        <div class="ed-item web-50">
             <nav>
                 <ul class="ed-menu web-horizontal web-main-end">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="#">Recursos</a>
                         <ul class="ed-menu web-vertical">
-                            <li><a href="#">Herramientas</a></li>
-                            <li><a href="#">Tutoriales</a></li>
-                            <li><a href="#">Información</a></li>
+                            <li><a href="tecnologias.html">Tecnologías relacionadas</a></li>
+                            <li><a href="videos.html">Videos</a></li>
+                            <li><a href="informacion.html">Información</a></li>
                         </ul>
                     </li>
-                    <li><a href="casos.html">Tendencias</a></li>
+                    <li><a href="tendencia.html">Tendencias</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
@@ -45,19 +45,85 @@
         <main class="ed-item web-75">
             <h1>Bienvenidos a Internet de las Cosas</h1>
             <p>Internet de las Cosas (IoT) está transformando el mundo al conectar dispositivos y sistemas de manera inteligente. Desde el hogar hasta las industrias, IoT está cambiando la forma en que interactuamos con nuestro entorno.</p>
+            <p>Esta tecnología está cada vez más presente en nuestras vidas. Cada día surgen nuevos dispositivos que hacen que nuestras tareas en casa y en el trabajo sean más sencillas, gracias a las muchas funciones que ofrecen. Este concepto está volviendo todo a nuestro alrededor más inteligente y adaptado a nuestras necesidades, y definitivamente ha llegado para quedarse.</p>
             <p>Los dispositivos IoT recopilan datos y los envían a la nube para su procesamiento. Esta información permite tomar decisiones basadas en datos en tiempo real, mejorar la eficiencia y crear nuevas oportunidades para la innovación.</p>
-            <p>Explora nuestras secciones para conocer más sobre las tecnologías detrás de IoT, casos de éxito y cómo puedes implementar soluciones IoT en tu vida o negocio.</p>
+            <p>A continuación, veremos las secciones de ventajas y desventajas para conocer más sobre las tecnologías detrás de IoT:</p>
         </main>
         <aside class="ed-item web-25">
-            <div>
-                <h2>Síguenos en Redes Sociales</h2>
-                <a href="https://es-la.facebook.com/" target="_blank">Facebook</a>
-                <a href="https://twitter.com/" target="_blank">Twitter</a>
-                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <div class="contenedor-red-social">
+                <h2>Síguenos en las redes sociales:</h2>
+                <div class="iconos">
+                    <a href="https://es-la.facebook.com/" target="_blank">
+                        <img src="imagenes/facebook.png" alt="Facebook" class="icono-red-social">
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="imagenes/twitter.png" alt="Twitter" class="icono-red-social">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="imagenes/instagram.png" alt="Instagram" class="icono-red-social">
+                    </a>
+                </div>
             </div>
         </aside>
     </div>
-    <footer>
+    <div class="ed-container">
+        <section class="ventajas-riesgos">
+            <div class="ventajas-riesgos-container">
+                <!-- Ventajas del IoT -->
+                <div class="ventajas-iot">
+                    <h2>Ventajas del IoT</h2>
+                    <div class="ed-grid l-grid-3">
+                        <div>
+                            <h3>Eficiencia Mejorada</h3>
+                            <p>Automatiza tareas y optimiza procesos, ahorrando tiempo y recursos en diversas industrias.</p>
+                        </div>
+                        <div>
+                            <h3>Toma de Decisiones en Tiempo Real</h3>
+                            <p>Analiza datos en tiempo real para tomar decisiones más informadas y rápidas.</p>
+                        </div>
+                        <div>
+                            <h3>Mejora en la Experiencia del Usuario</h3>
+                            <p>Ofrece experiencias más personalizadas y adaptadas a las necesidades de los usuarios.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Desventajas o Riesgos del IoT -->
+                <div class="desventajas-iot">
+                    <h2>Desventajas o Riesgos de IoT</h2>
+                    <div class="ed-grid l-grid-3">
+                        <div>
+                            <h3>Problemas de Seguridad</h3>
+                            <p>La proliferación de dispositivos conectados puede aumentar el riesgo de vulnerabilidades y ataques cibernéticos.</p>
+                        </div>
+                        <div>
+                            <h3>Privacidad de los Datos</h3>
+                            <p>La recolección y transmisión de datos personales pueden poner en riesgo la privacidad si no se gestionan adecuadamente.</p>
+                        </div>
+                        <div>
+                            <h3>Dependencia Tecnológica</h3>
+                            <p>Una dependencia excesiva de la tecnología puede llevar a problemas en caso de fallos del sistema o desconexiones.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="ed-container">
+        <!-- Nueva Sección: Video de Introducción -->
+        <section class="video-introduccion">
+            <h2>Video introductorio al mundo del Internet de las Cosas</h2>
+            <div class="ed-grid l-grid-1">
+                <center><iframe width="560" height="615" src="https://www.youtube.com/embed/lbE7WsuK9rI?si=cqrctPimk2V8_5lr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+            </div>
+        </section>
+        <!-- Nueva Sección: Llamado a la Acción -->
+        <div class><section class="contacto-redireccion">
+            <h2>¡Únete a la revolución de esta tecnología sorprendente!</h2>
+            <p>Descubre cómo puedes empezar a implementar IoT en tu hogar o empresa.</p>
+            <p><a href="contacto.html">Contáctanos para más información</a></p>
+        </section></div>
+    </div>
+    <footer class="ed-container">
         <div class="contenido-footer">
             <p>Proyecto web</p>
             <p>&copy; Diseñado por Pablo Boza</p>
